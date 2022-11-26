@@ -19,7 +19,6 @@ public class Client {
 		int id=s.nextInt();
 		System.out.println("Book with ID "+id+":"+service.getBookById(id));
 
-		
 		System.out.println("Listing book with Specific Title: ");
 		System.out.println("Enter the title:");
 		String title=s.next();
