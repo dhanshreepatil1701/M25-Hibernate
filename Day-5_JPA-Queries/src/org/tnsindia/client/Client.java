@@ -13,7 +13,6 @@ public class Client {
 		
 		BookService service=new BookServiceImpl();
 		
-		
 		System.out.println("Listing book with Specific ID: ");
 		System.out.println("Enter the Book ID:");
 		int id=s.nextInt();
